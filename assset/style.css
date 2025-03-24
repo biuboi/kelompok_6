@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+.slider-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1300vw; /* 13 slide, masing-masing 100vw */
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+

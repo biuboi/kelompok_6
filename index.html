@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perbandingan Kecepatan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="assset/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo atau Nama Website -->
+        <h1
+          class="text-white text-xl font-bold transform transition duration-300 ease-in-out hover:scale-110"
+        >
+          Kelompok 6
+        </h1>
+        <!-- menu navigasi -->
+        <ul class="flex space-x-6">
+          <li>
+            <a
+              href="index.html"
+              class="text-gray-300 hover:text-white transition"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="introduction.html"
+              class="text-gray-300 hover:text-white transition"
+              >Pencipta Website</a
+            >
+          </li>
+          <li>
+            <a
+              href="Quiz.html"
+              class="text-gray-300 hover:text-white transition"
+              >Quiz</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Halaman Pertama (Intro) -->
+    <div
+      class="section bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+      id="intro"
+    >
+      <div>
+        <h1
+          class="text-5xl font-bold transform transition duration-300 ease-in-out hover:scale-110"
+        >
+          Seberapa Cepat Mereka?
+        </h1>
+        <p
+          class="font-bold transform transition duration-300 ease-in-out hover:scale-110 text-3xl mt-4 mb-4"
+        >
+          geser ke bawah untuk melihat perbandingan kecepatan atau klik tombol
+          untuk mulai!
+        </p>
+        <a
+          class="bg-gray-800 hover:text-white font-bold py-2 px-6 rounded-2xl hover:bg-gray-500 transition duration-300 transform hover:scale-110"
+          href="#slider"
+          >Start</a
+        >
+      </div>
+    </div>
+
+    <!-- Wrapper Scroll untuk Slider -->
+    <div class="slider-container">
+      <div id="slider" class="slider">
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/169/animasi-bergerak-berlari-0068.gif"
+            alt=""
+            width="20%"
+          />Manusia (5 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/1125/animasi-bergerak-bersepeda-0034.gif"
+            alt=""
+            width="20%"
+          />Sepeda (20 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/1315/animasi-bergerak-macan-tutul-0022.gif"
+            alt=""
+            width="25%"
+          />
+          Cheetah (125 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/400/animasi-bergerak-mobil-sport-0028.gif"
+            alt=""
+            width="30%"
+          />Mobil Balap (300 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/238/animasi-bergerak-elang-0036.gif"
+            alt=""
+            width="20%"
+          />
+          Elang (389 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/71/animasi-bergerak-pesawat-terbang-0083.gif"
+            alt=""
+            width="20%"
+          />
+          Pesawat Penumpang (900 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://i.pinimg.com/originals/96/92/e0/9692e0f88f16f0d9b1da1c592f36a223.gif"
+            alt=""
+          />
+          Kecepatan Suara (1.235 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/571/animasi-bergerak-pesawat-tempur-0040.gif"
+            alt=""
+            width="20%"
+          />Jet Tempur (2.500 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover gap-5"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/346/animasi-bergerak-senapan-dan-pistol-0016.gif"
+            alt=""
+            width="20%"
+          />
+          Peluru Senapan (3.000 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover gap-5"
+        >
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+          Missile (12.000 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="https://www.gambaranimasi.org/data/media/600/animasi-bergerak-roket-dan-pesawat-ulang-alik-0032.gif"
+            alt=""
+            width="10%"
+          />Roket (28.000 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover gap-5"
+        >
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLIict04rbEw_7H-dEVeGl83uJrfk-L50ELw&s"
+            alt=""
+          />
+          Asteroid (107.226 km/jam)
+        </div>
+        <div
+          class="slide bg-[url(assset/background-img/universe.jpeg)] bg-no-repeat bg-cover"
+        >
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+            width="25%"
+          />
+          Kecepatan Cahaya (1.079.252.848.8 km/jam)
+        </div>
+      </div>
+    </div>
+    <script src="assset/java.js"></script>
+  </body>
+</html>
