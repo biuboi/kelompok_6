@@ -72,8 +72,4 @@ function checkAnswer(selected) {
   loadQuestion();
 }
 
-function nextQuestion() {
-  loadQuestion();
-}
-
 window.onload = loadQuestion;
